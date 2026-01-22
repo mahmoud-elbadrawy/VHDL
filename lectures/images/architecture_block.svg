@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="300" viewBox="0 0 750 300">
+  <rect width="100%" height="100%" fill="#ffffff" rx="10"/>
+
+  <text x="375" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">VHDL Architecture: Internal Logic</text>
+
+  <rect x="180" y="65" width="390" height="190" fill="none" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="8,4" rx="10"/>
+  <text x="190" y="60" font-family="Arial" font-size="11" font-weight="bold" fill="#95a5a6">ENTITY BOUNDARY</text>
+
+  <rect x="230" y="90" width="290" height="140" fill="#fffdfa" stroke="#e67e22" stroke-width="3" rx="8"/>
+  <rect x="305" y="80" width="140" height="22" fill="#e67e22" rx="4"/>
+  <text x="375" y="96" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">ARCHITECTURE</text>
+
+  <rect x="260" y="115" width="230" height="40" rx="4" fill="#ebf5fb" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="375" y="140" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2980b9">S &lt;= A XOR B</text>
+  
+  <rect x="260" y="170" width="230" height="40" rx="4" fill="#fef9e7" stroke="#f1c40f" stroke-width="1.5"/>
+  <text x="375" y="195" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#d4ac0d">C &lt;= A AND B</text>
+
+  <g stroke="#e74c3c" stroke-width="2">
+    <line x1="60" y1="125" x2="230" y2="125" />
+    <path d="M 222 120 L 230 125 L 222 130" fill="none" />
+  </g>
+  <text x="40" y="130" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">A</text>
+
+  <g stroke="#e74c3c" stroke-width="2">
+    <line x1="60" y1="185" x2="230" y2="185" />
+    <path d="M 222 180 L 230 185 L 222 190" fill="none" />
+  </g>
+  <text x="40" y="190" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">B</text>
+
+  <g stroke="#27ae60" stroke-width="2">
+    <line x1="520" y1="135" x2="680" y2="135" />
+    <path d="M 672 130 L 680 135 L 672 140" fill="none" />
+  </g>
+  <text x="690" y="140" font-family="Arial" font-size="16" font-weight="bold" fill="#27ae60">S</text>
+
+  <g stroke="#27ae60" stroke-width="2">
+    <line x1="520" y1="195" x2="680" y2="195" />
+    <path d="M 672 190 L 680 195 L 672 200" fill="none" />
+  </g>
+  <text x="690" y="200" font-family="Arial" font-size="16" font-weight="bold" fill="#27ae60">C</text>
+
+  <text x="375" y="275" font-family="Arial" font-size="13" text-anchor="middle" fill="#7f8c8d">Inside the Architecture, signals are processed into outputs.</text>
+</svg>
