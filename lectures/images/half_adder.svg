@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="280" viewBox="0 0 750 280">
+  <rect width="100%" height="100%" fill="#ffffff" rx="10"/>
+  
+  <text x="375" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">Half Adder Logic Circuit</text>
+  
+  <text x="40" y="105" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e">A</text>
+  <text x="40" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34495e">B</text>
+
+  <g stroke="#7f8c8d" stroke-width="2" fill="none">
+    <path d="M 60 100 L 150 100" /> <path d="M 60 180 L 150 180" /> <path d="M 100 100 L 100 160 L 150 160" />
+    <path d="M 120 180 L 120 120 L 150 120" />
+    
+    <path d="M 210 110 L 650 110" /> <path d="M 210 170 L 650 170" /> </g>
+
+  <circle cx="100" cy="100" r="3" fill="#7f8c8d"/>
+  <circle cx="120" cy="180" r="3" fill="#7f8c8d"/>
+
+  <g transform="translate(150, 85)">
+    <path d="M 0 0 C 10 0 15 10 15 25 C 15 40 10 50 0 50 M 5 0 C 15 0 25 5 35 25 C 25 45 15 50 5 50" fill="none" stroke="#2980b9" stroke-width="3"/>
+    <path d="M 15 0 C 25 0 55 5 60 25 C 55 45 25 50 15 50 Q 25 25 15 0" fill="#ebf5fb" stroke="#2980b9" stroke-width="3"/>
+    <text x="28" y="32" font-family="Arial" font-size="12" font-weight="bold" fill="#2980b9">XOR</text>
+  </g>
+
+  <g transform="translate(150, 145)">
+    <path d="M 10 0 L 35 0 C 55 0 55 50 35 50 L 10 50 Z" fill="#fef9e7" stroke="#f1c40f" stroke-width="3"/>
+    <text x="22" y="32" font-family="Arial" font-size="12" font-weight="bold" fill="#d4ac0d">AND</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    <text x="660" y="115" fill="#27ae60">Sum (S)</text>
+    <text x="660" y="175" fill="#e67e22">Carry (C)</text>
+  </g>
+
+  <rect x="225" y="225" width="300" height="40" rx="20" fill="#f8f9f9" stroke="#d5dbdb" stroke-width="1"/>
+  <text x="375" y="250" font-family="Courier New, monospace" font-size="14" text-anchor="middle" fill="#566573">S = A ⊕ B  |  C = A ⋅ B</text>
+</svg>
