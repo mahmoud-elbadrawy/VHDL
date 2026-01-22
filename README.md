@@ -21,22 +21,16 @@ This repository is for personal study — it is not intended for external contri
 
 ## Repository Structure
 The repository is organized as follows:
-- `notes/` — Markdown notes explaining concepts, examples, and summaries.
-- `examples/` — Small VHDL designs and their testbenches (one example per folder with a short README).
-- `projects/` — Small practice projects or experiments (more than one file or an actual device target).
+- `lectures/` — Markdown notes explaining concepts, examples, and summaries.
+- `projects/` — Small practice projects or experiments.
 - `README.md` — This file.
 
 Example:
 
 ```
 VHDL/
-├─ notes/
+├─ lectures/
 │  ├─ 01-basics.md
-├─ examples/
-│  ├─ simple-counter/
-│  │  ├─ counter.vhd
-│  │  ├─ tb_counter.vhd
-│  │  └─ README.md
 ├─ projects/
 └─ README.md
 ```
