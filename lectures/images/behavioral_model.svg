@@ -1,0 +1,29 @@
+<svg width="600" height="320" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ffffff" rx="12"/>
+
+  <text x="300" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4b5563">Behavioral Modeling: Process Flow</text>
+
+  <rect x="150" y="50" width="300" height="230" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5,3" rx="10"/>
+  <text x="160" y="70" font-family="Arial" font-size="12" font-weight="bold" fill="#7c3aed">PROCESS (A, B)</text>
+
+  <rect x="225" y="80" width="150" height="40" rx="20" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="300" y="105" font-family="Arial" font-size="13" text-anchor="middle" fill="#1e293b">Wait for A or B change</text>
+
+  <line x1="300" y1="120" x2="300" y2="140" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M 295 135 L 300 142 L 305 135" fill="#94a3b8"/>
+
+  <path d="M 300 140 L 380 170 L 300 200 L 220 170 Z" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="300" y="175" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#7c3aed">CALCULATE LOGIC</text>
+
+  <line x1="300" y1="200" x2="300" y2="220" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M 295 215 L 300 222 L 305 215" fill="#94a3b8"/>
+
+  <rect x="225" y="220" width="150" height="40" rx="4" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <text x="300" y="245" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#059669">Update S and C</text>
+
+  <path d="M 375 240 L 420 240 L 420 100 L 375 100" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M 382 95 L 375 100 L 382 105" fill="#94a3b8"/>
+
+  <text x="50" y="105" font-family="Arial" font-size="14" font-weight="bold" fill="#c0392b">Inputs</text>
+  <text x="500" y="245" font-family="Arial" font-size="14" font-weight="bold" fill="#059669">Outputs</text>
+</svg>
