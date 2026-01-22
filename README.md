@@ -30,7 +30,6 @@ Example:
 ```
 VHDL/
 ├─ lectures/
-│  ├─ 01-basics.md
 ├─ projects/
 └─ README.md
 ```
