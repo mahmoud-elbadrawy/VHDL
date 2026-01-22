@@ -1,0 +1,28 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ffffff" rx="10"/>
+
+  <text x="10" y="55" font-family="Arial" font-weight="bold" font-size="16" fill="#c0392b">Input A</text>
+  <text x="10" y="175" font-family="Arial" font-weight="bold" font-size="16" fill="#c0392b">Input B</text>
+  
+  <text x="510" y="70" font-family="Arial" font-weight="bold" font-size="16" fill="#27ae60">Sum (S)</text>
+  <text x="510" y="160" font-family="Arial" font-weight="bold" font-size="16" fill="#27ae60">Carry (C)</text>
+
+  <g stroke="#7f8c8d" stroke-width="2" fill="none">
+    <path d="M 80 50 L 150 50" /> <path d="M 100 50 L 100 140 L 150 140" /> <path d="M 80 170 L 150 170" /> <path d="M 120 170 L 120 80 L 150 80" /> </g>
+
+  <circle cx="100" cy="50" r="3" fill="#7f8c8d"/>
+  <circle cx="120" cy="170" r="3" fill="#7f8c8d"/>
+
+  <g transform="translate(150, 40)">
+    <path d="M 0 0 C 10 0 15 10 15 25 C 15 40 10 50 0 50 M 5 0 C 15 0 25 5 35 25 C 25 45 15 50 5 50" fill="none" stroke="#2980b9" stroke-width="2.5"/>
+    <path d="M 15 0 C 25 0 55 5 60 25 C 55 45 25 50 15 50 Q 25 25 15 0" fill="#ebf5fb" stroke="#2980b9" stroke-width="2.5"/>
+    <text x="22" y="30" font-family="Arial" font-size="10" font-weight="bold" fill="#2980b9">XOR</text>
+    <line x1="60" y1="25" x2="350" y2="25" stroke="#27ae60" stroke-width="2.5"/>
+  </g>
+
+  <g transform="translate(150, 130)">
+    <path d="M 10 0 L 35 0 C 55 0 55 50 35 50 L 10 50 Z" fill="#fef9e7" stroke="#f1c40f" stroke-width="2.5"/>
+    <text x="20" y="30" font-family="Arial" font-size="10" font-weight="bold" fill="#d4ac0d">AND</text>
+    <line x1="50" y1="25" x2="350" y2="25" stroke="#27ae60" stroke-width="2.5"/>
+  </g>
+</svg>
