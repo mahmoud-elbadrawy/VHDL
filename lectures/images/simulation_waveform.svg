@@ -1,0 +1,38 @@
+<svg width="650" height="280" viewBox="0 0 650 280" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ffffff" rx="12"/>
+  
+  <text x="325" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#374151">Simulation Waveform (Timing Diagram)</text>
+
+  <g stroke="#f1f5f9" stroke-width="1">
+    <line x1="100" y1="60" x2="100" y2="240" />
+    <line x1="200" y1="60" x2="200" y2="240" />
+    <line x1="300" y1="60" x2="300" y2="240" />
+    <line x1="400" y1="60" x2="400" y2="240" />
+    <line x1="500" y1="60" x2="500" y2="240" />
+    <line x1="600" y1="60" x2="600" y2="240" />
+  </g>
+
+  <g font-family="Arial" font-size="10" fill="#94a3b8" text-anchor="middle">
+    <text x="100" y="255">0ns</text>
+    <text x="200" y="255">10ns</text>
+    <text x="300" y="255">20ns</text>
+    <text x="400" y="255">30ns</text>
+    <text x="500" y="255">40ns</text>
+    <text x="600" y="255">50ns</text>
+  </g>
+
+  <text x="20" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="#c0392b">A</text>
+  <polyline points="100,100 200,100 200,70 400,70 400,100 600,100" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+
+  <text x="20" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="#c0392b">B</text>
+  <polyline points="100,150 300,150 300,120 500,120 500,150 600,150" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+
+  <text x="20" y="190" font-family="Arial" font-size="14" font-weight="bold" fill="#0369a1">Sum</text>
+  <polyline points="100,200 200,200 200,170 300,170 300,200 400,200 400,170 500,170 500,200 600,200" fill="none" stroke="#0ea5e9" stroke-width="2.5"/>
+
+  <text x="20" y="230" font-family="Arial" font-size="14" font-weight="bold" fill="#15803d">Carry</text>
+  <polyline points="100,240 300,240 300,210 400,210 400,240 600,240" fill="none" stroke="#22c55e" stroke-width="2.5"/>
+
+  <text x="85" y="75" font-family="Arial" font-size="10" fill="#94a3b8">1</text>
+  <text x="85" y="100" font-family="Arial" font-size="10" fill="#94a3b8">0</text>
+</svg>
