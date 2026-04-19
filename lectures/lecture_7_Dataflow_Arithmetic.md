@@ -132,7 +132,6 @@ C <= std_logic(sum5(4));
 
 ## ✅ Summary
 
-- **Lecture 7** covers 4-bit dataflow arithmetic using `fourbit_dataflow.vhd`.
 - The design uses `unsigned` arithmetic and conversions from `std_logic_vector`.
 - The output includes a 4-bit sum and a carry-out bit.
 - This is a clean example of **combinational arithmetic** in VHDL.

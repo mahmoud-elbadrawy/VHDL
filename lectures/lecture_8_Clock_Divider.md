@@ -117,7 +117,5 @@ This design can be used for:
 
 ## ✅ Summary
 
-- **Lecture 8** covers a clock divider with a 4-bit counter.
-- `clockdivider.vhd` uses a counter to derive `clk_out` from `clk`.
 - The design shows how to build a slower clock and a synchronized counter in VHDL.
 - Reset logic keeps the circuit in a known state.

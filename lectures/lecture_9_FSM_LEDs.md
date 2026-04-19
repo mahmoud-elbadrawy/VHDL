@@ -122,7 +122,6 @@ For `FSM_LEDs`, a **Moore FSM** is usually a good choice because LED patterns de
 
 ## ✅ Summary
 
-- **Lecture 9** covers FSM design for LEDs using the `FSM_LEDs.vhd` template.
 - The current VHDL file is a behavioral skeleton ready for FSM implementation.
 - FSMs need state definitions, next-state logic, and output logic.
 - LED FSMs are a classic example of sequential digital design in VHDL.

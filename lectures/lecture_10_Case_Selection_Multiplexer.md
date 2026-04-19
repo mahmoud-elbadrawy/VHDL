@@ -231,12 +231,6 @@ You've journeyed through **10 comprehensive lectures** covering the fundamentals
 - **Synthesis & Simulation** concepts
 - **Real-world applications** like adders, multiplexers, and FSMs
 
-### 🚀 Next Steps:
-- **Practice** with the provided VHDL projects
-- **Experiment** by modifying the designs
-- **Build** your own digital circuits
-- **Explore** advanced topics like testbenches, timing constraints, and FPGA implementation
-
 ### 💡 Remember:
 > "The best way to learn VHDL is by doing. Start small, build incrementally, and never stop experimenting!"
 
@@ -246,7 +240,6 @@ You've journeyed through **10 comprehensive lectures** covering the fundamentals
 
 ## ✅ Summary
 
-- **Lecture 10** covers a 4-to-1 multiplexer using case statements from `Case_sel.vhd`.
 - **Case statements** provide clean, readable selection logic.
 - The design shows **combinational multiplexing** with safe default handling.
 - **Behavioral modeling** with processes is ideal for complex selection logic.
